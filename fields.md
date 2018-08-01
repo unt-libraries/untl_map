@@ -1,4 +1,4 @@
-##Overview
+## Overview
 This list provides general information for each field element used in UNTL (University of North Texas Libraries) metadata records.  
 
 Each table includes the following information:
@@ -13,7 +13,7 @@ Each table includes the following information:
 
 
 
-##List of Fields
+## List of Fields
 
 ||**Title**|
 |-------------------------------|------------------------------------------|
@@ -109,8 +109,7 @@ Each table includes the following information:
 |Required | No|
 |Repeatable | No|
 |Qualifier | No|
-|Value Type | "0 = Not a primary source|
-|1 = Item is a primary source"|
+|Value Type | 0 = Not a primary source <br /><br />1 = Item is a primary source|
 |Guidelines | http://www.library.unt.edu/digital-projects-unit/primary-source|
 |Notes | This is a local field.|
 
@@ -121,11 +120,7 @@ Each table includes the following information:
 |Required | No|
 |Repeatable | Yes|
 |Qualifier | http://purl.org/NET/UNTL/vocabularies/coverage-eras/|
-|Value Type | "Place Box: Geocode (http://www.dublincore.org/documents/dcmi-box/)|
-|Place Name: Text string|
-|Place Point: Geocode (http://dublincore.org/documents/dcmi-point/)|
-|Coverage Date: EDTF Date|
-|Time Period: http://purl.org/NET/UNTL/vocabularies/coverage-eras/"|
+|Value Type | Place Box: Geocode (http://www.dublincore.org/documents/dcmi-box/)<br /><br />Place Name: Text string<br /><br />Place Point: Geocode (http://dublincore.org/documents/dcmi-point/)<br /><br />Coverage Date: EDTF Date<br /><br />Time Period: http://purl.org/NET/UNTL/vocabularies/coverage-eras/|
 |Guidelines | http://www.library.unt.edu/digital-projects-unit/coverage|
 |Notes | Date entries cannot be repeated. <br /><br /> Date values must comply with the Extended Date/Time Format.|
 
@@ -191,10 +186,7 @@ Each table includes the following information:
 |Required | No|
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/rights-qualifiers/|
-|Value Type | "Access: http://digital2.library.unt.edu/vocabularies/rights-access/|
-|Holder: Text string|
-|License: http://digital2.library.unt.edu/vocabularies/rights-licenses/|
-|Statement: Text string|
+|Value Type | Access: http://digital2.library.unt.edu/vocabularies/rights-access/<br /><br />Holder: Text string<br /><br />License: http://digital2.library.unt.edu/vocabularies/rights-licenses/<br /><br />Statement: Text string|
 |Guidelines | http://www.library.unt.edu/digital-projects-unit/rights|
 |Notes | |
 
