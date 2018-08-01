@@ -230,13 +230,7 @@ Each table includes the following information:
 |Required | No|
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/degree-information/|
-|Value Type | "College: Text string|
-|Department: Text string|
-|Discipline: Text string|
-|Grantor: Text string|
-|Level: http://digital2.library.unt.edu/vocabularies/degree-levels/|
-|Name: Text string|
-|Publication Type: http://digital2.library.unt.edu/vocabularies/publication-types/"|
+|Value Type | College: Text string<br/><br />Department: Text string<br/><br />Discipline: Text string<br/><br />Grantor: Text string<br/><br />Level: http://digital2.library.unt.edu/vocabularies/degree-levels/<br/><br />Name: Text string<br/><br />Publication Type: http://digital2.library.unt.edu/vocabularies/publication-types/|
 |Guidelines | http://www.library.unt.edu/digital-projects-unit/degree-information|
 |Notes | This is a local field. <br /><br /> Each degree information type may only be used once per record.|
 
