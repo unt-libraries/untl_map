@@ -78,7 +78,7 @@ Each table includes the following information:
 |Qualifier | No|
 |Value Type | http://digital2.library.unt.edu/vocabularies/languages/|
 |Guidelines | http://www.library.unt.edu/digital-projects-unit/language|
-|Notes | Language codes align with the ISO 639-2 specification.|
+|Notes | Language codes align with the ISO 639-2 specification or come from Glottolog (https://glottolog.org/) if an ISO code is not available.|
 
 
 ||**Description**|
