@@ -9,7 +9,7 @@ Qualifiers are required (when applicable) if the field contains a value.
 ### Additional Resources
 Technical requirements for the UNTL specification are documented at: http://digital2.library.unt.edu/untl.xsd
 
-Full guidelines for UNTL metadata fields and projects are documented at: http://www.library.unt.edu/digital-projects-unit/metadata
+Full guidelines for UNTL metadata fields and projects are documented at: https://www.library.unt.edu/metadata/
 
 Python package for reading and writing UNTL metadata records:
 https://github.com/unt-libraries/pyuntl
