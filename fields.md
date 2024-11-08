@@ -22,7 +22,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://purl.org/NET/UNTL/vocabularies/title-qualifiers/|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/title|
+|Guidelines | https://library.unt.edu/metadata/fields/title.html|
 |Notes | Main title is required.|
 
 
@@ -33,7 +33,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://purl.org/NET/UNTL/vocabularies/agent-qualifiers/|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/creator|
+|Guidelines | http://www.library.unt.edu/metadata/fields/creator.html|
 |Notes | Every creator entry must include a role (qualifier) and type, with an optional information statement. Creator type value: http://digital2.library.unt.edu/vocabularies/agent-type/  <br /><br />Except for specific collections, an agent may only be listed once per record as a creator or contributor, but may be listed once as creator/contributor and also as publisher.<br /><br /> When possible, names should come from an established authority, including Library of Congress, the Virtual International Authority File (VIAF), or the local UNT Name App: http://digital2.library.unt.edu/name/|
 
 
@@ -44,7 +44,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://purl.org/NET/UNTL/vocabularies/agent-qualifiers/|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/contributor|
+|Guidelines | http://www.library.unt.edu/metadata/fields/contributor.html|
 |Notes | Every contributor entry must include a role (qualifier) and type, with an optional information statement.  Contributor type value: http://digital2.library.unt.edu/vocabularies/agent-type/  <br /><br /> Except for specific collections, an agent may only be listed once per record as a creator or contributor, but may be listed once as creator/contributor and also as publisher. <br /><br /> When possible, names should come from an established authority, including Library of Congress, the Virtual International Authority File (VIAF), or the local UNT Name App: http://digital2.library.unt.edu/name/|
 
 
@@ -55,7 +55,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | No|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/publisher|
+|Guidelines | http://www.library.unt.edu/metadata/fields/publisher.html|
 |Notes | Publisher should include a name and/or publication location, with optional information statement. <br /><br /> When possible, names should come from an established authority, including Library of Congress, the Virtual International Authority File (VIAF), or the local UNT Name App: http://digital2.library.unt.edu/name/|
 
 
@@ -66,7 +66,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/date-qualifiers/|
 |Value Type | EDTF Date|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/date|
+|Guidelines | http://www.library.unt.edu/metadata/fields/date.html|
 |Notes | Date values must comply with the Extended Date/Time Format. <br /><br /> Each date type may only be used once per record.|
 
 
@@ -77,7 +77,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | No|
 |Value Type | http://digital2.library.unt.edu/vocabularies/languages/|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/language|
+|Guidelines | http://www.library.unt.edu/metadata/fields/language.html|
 |Notes | Language codes align with the ISO 639-2 specification or come from Glottolog (https://glottolog.org/) if an ISO code is not available.|
 
 
@@ -88,7 +88,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/description-qualifiers/|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/description|
+|Guidelines | http://www.library.unt.edu/metadata/fields/description.html|
 |Notes | Content description is required. <br /><br /> Each description type may only be used once per record.|
 
 
@@ -99,7 +99,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://purl.org/NET/UNTL/vocabularies/subject-qualifiers/|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/subject|
+|Guidelines | http://www.library.unt.edu/metadata/fields/subject.html|
 |Notes | Two subjects of any type are required. <br /><br /> For all Portal records at least one value from the UNTL-BS is required: http://digital2.library.unt.edu/subjects/ <br /><br /> Subjects from controlled vocabularies must be authorized terms.|
 
 
@@ -110,7 +110,7 @@ Each table includes the following information:
 |Repeatable | No|
 |Qualifier | No|
 |Value Type | 0 = Not a primary source <br /><br />1 = Item is a primary source|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/primary-source|
+|Guidelines | http://www.library.unt.edu/metadata/fields/primary-source.html|
 |Notes | This is a local field.|
 
 
@@ -121,7 +121,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://purl.org/NET/UNTL/vocabularies/coverage-eras/|
 |Value Type | Place Box: Geocode (http://www.dublincore.org/documents/dcmi-box/)<br /><br />Place Name: Text string<br /><br />Place Point: Geocode (http://dublincore.org/documents/dcmi-point/)<br /><br />Coverage Date: EDTF Date<br /><br />Time Period: http://purl.org/NET/UNTL/vocabularies/coverage-eras/|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/coverage|
+|Guidelines | http://www.library.unt.edu/metadata/fields/coverage.html|
 |Notes | Date entries cannot be repeated. <br /><br /> Date values must comply with the Extended Date/Time Format.|
 
 
@@ -132,7 +132,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/sourceQualifiers/|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/source|
+|Guidelines | http://www.library.unt.edu/metadata/fields/source.html|
 |Notes | |
 
 
@@ -143,7 +143,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/citationQualifiers/|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/citation|
+|Guidelines | http://www.library.unt.edu/metadata/fields/citation.html|
 |Notes | This is a local field. <br /><br /> Each citation type may only be used once per record. <br /><br /> Value for “Peer Reviewed” is True/False; all others are text.|
 
 
@@ -154,7 +154,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/relation-qualifiers/|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/relation|
+|Guidelines | http://www.library.unt.edu/metadata/fields/relation.html|
 |Notes | |
 
 
@@ -165,7 +165,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | No|
 |Value Type | http://digital2.library.unt.edu/vocabularies/collections/|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/collection|
+|Guidelines | http://www.library.unt.edu/metadata/fields/collection.html|
 |Notes | This is a local field.|
 
 
@@ -176,7 +176,7 @@ Each table includes the following information:
 |Repeatable | No|
 |Qualifier | No|
 |Value Type | http://digital2.library.unt.edu/vocabularies/institutions/|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/institution|
+|Guidelines | http://www.library.unt.edu/metadata/fields/institution.html|
 |Notes | This is a local field. <br /><br /> Same as “Partner” in public interfaces.|
 
 
@@ -187,7 +187,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/rights-qualifiers/|
 |Value Type | Access: http://digital2.library.unt.edu/vocabularies/rights-access/<br /><br />Holder: Text string<br /><br />License: http://digital2.library.unt.edu/vocabularies/rights-licenses/<br /><br />Statement: Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/rights|
+|Guidelines | http://www.library.unt.edu/metadata/fields/rights.html|
 |Notes | |
 
 
@@ -198,7 +198,7 @@ Each table includes the following information:
 |Repeatable | No|
 |Qualifier | No|
 |Value Type | http://digital2.library.unt.edu/vocabularies/resource-types/|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/resource-type|
+|Guidelines | http://www.library.unt.edu/metadata/fields/resource-type.html|
 |Notes | |
 
 
@@ -209,7 +209,7 @@ Each table includes the following information:
 |Repeatable | No|
 |Qualifier | No|
 |Value Type | http://digital2.library.unt.edu/vocabularies/formats/|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/format|
+|Guidelines | http://www.library.unt.edu/metadata/fields/format.html|
 |Notes | |
 
 
@@ -220,7 +220,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/identifier-qualifiers/|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/identifier|
+|Guidelines | http://www.library.unt.edu/metadata/fields/identifier.html|
 |Notes | Every item in the Digital Collections is assigned a unique, permanent ARK identifier during upload; that value is saved in the record’s administrative metadata.|
 
 
@@ -231,7 +231,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/degree-information/|
 |Value Type | College: Text string<br/><br />Department: Text string<br/><br />Discipline: Text string<br/><br />Grantor: Text string<br/><br />Level: http://digital2.library.unt.edu/vocabularies/degree-levels/<br/><br />Name: Text string<br/><br />Publication Type: http://digital2.library.unt.edu/vocabularies/publication-types/|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/degree-information|
+|Guidelines | http://www.library.unt.edu/metadata/fields/degree.html|
 |Notes | This is a local field. <br /><br /> Each degree information type may only be used once per record.|
 
 
@@ -242,7 +242,7 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/note-qualifiers/|
 |Value Type | Text string|
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/note|
+|Guidelines | http://www.library.unt.edu/metadata/fields/note.html|
 |Notes | This is a local field.|
 
 
@@ -253,5 +253,5 @@ Each table includes the following information:
 |Repeatable | Yes|
 |Qualifier | http://digital2.library.unt.edu/vocabularies/meta-qualifiers/|
 |Value Type | |
-|Guidelines | http://www.library.unt.edu/digital-projects-unit/meta-information|
+|Guidelines | http://www.library.unt.edu/metadata/fields/meta.html|
 |Notes | This is a local field. <br /><br /> This field is automatically generated and updated by the system to document administrative information about the item and record, including permanent identifiers, dates of creation/edits, editors, etc. <br /><br /> Only specific components of the information can be edited (e.g., record status and system), and only by designated administrators.|
